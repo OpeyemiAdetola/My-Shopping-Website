@@ -1,0 +1,42 @@
+body {
+    background-color : rgb(214, 202, 202)
+}
+nav {
+    background-color: rgb(83, 51, 58);
+
+}
+
+footer {
+    background-color:rgb(83, 51, 58) ;
+}
+
+@media screen and (max-width:768px ){
+    nav{
+        background-color: rgb(15, 70, 39);
+    }
+ body{
+     background-color: rgb(226, 238, 227);
+     color:rgb(129, 72, 18); 
+ } 
+ 
+footer {
+    background-color:rgb(15, 70, 39) ;
+}  
+}
+
+@media screen and (max-width:576px ){
+    nav{
+        background-color: #80471c;
+    }
+ body{
+     background-color: #FAFCF0;
+     color:rgb(129, 72, 18); 
+ } 
+ 
+footer {
+    background-color:#80471c ;
+}  
+}
+
+
+
